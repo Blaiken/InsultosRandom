@@ -1,0 +1,2 @@
+# insultos-random
+Insultos aleatorios.
