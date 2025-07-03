@@ -1,0 +1,131 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(36, 36, 36);
+    display: grid;
+    place-items: center;
+    font-family: 'Arial', monospace;
+}
+
+.contenedor {
+    displaY: grid;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(255, 35, 35, 0.2) 10%, #996a2d 80%, rgb(36, 36, 36));
+    padding: 20px;
+    margin-top: 150px;
+}
+
+.titulo {
+    color: white;
+    background-color: rgb(218, 147, 17);
+    background-image: linear-gradient(rgb(218, 147, 17) 80%, rgb(204, 162, 83));
+    padding: 20px;
+    margin-top: -40px;
+    border-radius: 20px;
+    text-shadow: 2px 2px black;
+}
+
+.texto {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    text-shadow: 2px 2px black;
+}
+
+.persona {
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    place-self: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: 1s;
+    background-color: rgb(245, 38, 38);
+    color: white;
+    cursor: pointer;
+    transform: scale(120%);
+}
+
+.btn:active {
+    background-color: rgb(128, 19, 19);
+}
+
+.insulto {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+.insulto-contenido {
+    background: rgb(36, 36, 36);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px, 10px rgba(0, 0, 0, 0.2);
+}
+
+.aviso {
+    margin: 15px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(218, 147, 17);
+}
+
+@media (width <= 720px) {
+
+    .contenedor {
+        width: 80%;
+        margin-top: 15%;
+    }
+
+    .titulo {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    footer {
+        position: static;
+        padding: 0;
+    }
+
+}

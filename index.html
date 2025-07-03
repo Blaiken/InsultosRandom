@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Insultos Random</title>
+    <link rel="shortcut icon" href="source/icon.png" type="image/x-icon">
+    <meta property="og:type" content="article">
+    <meta name="og:title" content="Insultos Random">
+    <meta name="og:description" content="Insultos aleatorios a una persona.">
+    <link rel="og:image" href="source/preview.png">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1 class="titulo">INSULTOS RANDOM</h1>
+        <p class="texto">- Menciona a una persona -</p>
+        <input type="text" placeholder='Ejemplo: "Juan"' class="persona">
+        <button class="btn">¡Insultar!</button>
+    </div>
+    <div id="insulto-msg" class="insulto">
+        <div class="insulto-contenido">
+            <p id="mensaje"></p>
+            <button class="btn" onclick="cerrarNotificacion()">Cerrar</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>2025 | Creado por <strong><a href="https://github.com/Blaiken/" target="_blank">Blaiken</a></strong>.</p>
+        <p class="aviso">Ten en cuenta que esto solo es hecho con el fin de diversión, no es ni será para ofender a nada ni nadie.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
